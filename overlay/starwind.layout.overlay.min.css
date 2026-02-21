@@ -1,0 +1,1 @@
+@layer starwind.layout{:where(sw-overlay){inset:var(--sw-overlay-inset,0);place-items:var(--sw-overlay-place,center);z-index:var(--sw-overlay-z,var(--sw-z-overlay,30));display:grid;position:absolute}}

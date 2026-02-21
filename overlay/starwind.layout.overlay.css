@@ -1,0 +1,9 @@
+@layer starwind.layout {
+    :where(sw-overlay) {
+        position: absolute;
+        inset: var(--sw-overlay-inset, 0);
+        display: grid;
+        place-items: var(--sw-overlay-place, center);
+        z-index: var(--sw-overlay-z, var(--sw-z-overlay, 30));
+    }
+}

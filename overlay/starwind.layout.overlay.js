@@ -93,6 +93,7 @@ function createStarwindElement(varMap) {
 
 // src/starwind.layout.overlay.js
 var SwOverlayLayout = createStarwindElement({
+  pos: { var: "--sw-overlay-position", type: "raw" },
   inset: { var: "--sw-overlay-inset", type: "raw" },
   place: { var: "--sw-overlay-place", type: "raw" },
   z: { var: "--sw-overlay-z", type: "raw" }
